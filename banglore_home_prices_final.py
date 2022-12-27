@@ -493,7 +493,7 @@ def find_best_model_using_gridsearchcv(X,y):
         'linear_regression' : {
             'model': LinearRegression(),
             'params': {
-                'normalize': [True, False]
+                'fit_intercept': [True, False]
             }
         },
         'lasso': {
